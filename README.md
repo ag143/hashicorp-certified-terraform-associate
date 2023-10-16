@@ -2,56 +2,56 @@
 [![Image](https://stacksimplify.com/course-images/hashicorp-certified-terraform-associate-highest-rated.png "HashiCorp Certified: Terraform Associate - 50 Practical Demos")](https://links.stacksimplify.com/hashicorp-certified-terraform-associate)
 
 ## Course Modules
-01. Infrastructure as Code (IaC)
-02. Install Tools on MacOs, LinuxOS and WindowsOS
-03. Command Basics
-04. Language Syntax
-05. Settings Block
-06. Providers Block
-07. Multiple Providers usage
-08. Dependency Lock File Importance
-09. Resources Syntax and Behavior
-10. Resources Meta-Argument - depends_on
-11. Resources Meta-Argument - count
-12. Resources Meta-Argument - for_each
-13. Resources Meta-Argument - lifecycle
-14. Input Variables - Basics
-15. Input Variables - Assign When Prompted
-16. Input Variables - Override default with cli var
-17. Input Variables - Override with environment variables
-18. Input Variables - Assign with terraform.tfvars
-19. Input Variables - Assign with tfvars var-file argument
-20. Input Variables - Assign with auto tfvars
-21. Input Variables - Lists
-22. Input Variables - Maps
-23. Input Variables - Validation Rules
-24. Input Variables - Sensitive Input Variables
-25. File Function
-26. Output Values
-27. Local Values
-28. Datasources
-29. Backends - Remote State Storage
-30. State Commands
-31. CLI Workspaces with local backend
-32. CLI Workspaces with remote backend
-33. File Provisioner
-34. local-exec Provisioner
-35. remote-exec Provisioner
-36. Null Resource
-37. Modules from Public Registry
-38. Build Local Module
-39. Terraform Cloud - VCS-Driven Worflow
-40. Terraform Cloud - CLI-Driven Worflow
-41. Terraform Cloud - Share modules in private module registry
-42. Migrate State to Terraform Cloud
-43. Basic Sentinel Policies
-44. Cost Control Sentinel Policies
-45. CIS Sentinel Policies
-46. State Import
-47. Graph
-48. Functions
-49. Dynamic Expressions
-50. Dynamic Blocks
+01. [Infrastructure as Code (IaC)](./01-Infrastructure-as-Code-IaC-Basics/Readme.md)
+02. [Install Tools on MacOs, LinuxOS and WindowsOS](./02-Terraform-Basics/02-01-Install-Tools-TerraformCLI-AWSCLI-VSCodeIDE/Readme.md)
+03. [Command Basics](./02-Terraform-Basics/02-02-Terraform-Command-Basics/Readme.md)
+04. [Language Syntax](./02-Terraform-Basics/02-03-Terraform-Language-Syntax/Readme.md)
+05. [Settings Block]
+06. [Providers Block](./03-Terraform-Fundamental-Blocks/03-02-Provider-Block/Readme.md)
+07. [Multiple Providers usage](./03-Terraform-Fundamental-Blocks/03-03-Multiple-Provider-Configurations/Readme.md)
+08. [Dependency Lock File Importance](./03-Terraform-Fundamental-Blocks/03-04-Providers-Dependency-Lock-File/Readme.md)
+09. [Resources Syntax and Behavior](./04-Terraform-Resources/04-01-Resource-Syntax-and-Behavior/Readme.md)
+10. [Resources Meta-Argument - depends_on](./04-Terraform-Resources/04-02-Meta-Argument-depends_on/Readme.md)
+11. [Resources Meta-Argument - count](./04-Terraform-Resources/04-03-Meta-Argument-count/Readme.md)
+12. [Resources Meta-Argument - for_each](./04-Terraform-Resources/04-04-Meta-Argument-for_each/Readme.md)
+13. [Resources Meta-Argument - lifecycle](./04-Terraform-Resources/04-05-Meta-Argument-lifecycle/Readme.md)
+14. [Input Variables - Basics](./05-Terraform-Variables/05-01-Terraform-Input-Variables/Readme.md)
+15. [Input Variables - Assign When Prompted]
+16. [Input Variables - Override default with cli var]
+17. [Input Variables - Override with environment variables]
+18. [Input Variables - Assign with terraform.tfvars]
+19. [Input Variables - Assign with tfvars var-file argument]
+20. [Input Variables - Assign with auto tfvars]
+21. [Input Variables - Lists]
+22. [Input Variables - Maps]
+23. [Input Variables - Validation Rules]
+24. [Input Variables - Sensitive Input Variables]
+25. [File Function]
+26. [Output Values]
+27. [Local Values]
+28. [Datasources](./06-Terraform-Datasources/Readme.md)
+29. [Backends - Remote State Storage](./07-Terraform-State/07-01-Terraform-Remote-State-Storage-and-Locking/Readme.md)
+30. [State Commands](./07-Terraform-State/07-02-Terraform-State-Commands/Readme.md)
+31. [CLI Workspaces with local backend](./08-Terraform-Workspaces/Readme.md)
+32. [CLI Workspaces with remote backend]
+33. [File Provisioner](./09-Terraform-Provisioners/09-01-File-Provisioner/Readme.md)
+34. [local-exec Provisioner](./09-Terraform-Provisioners/09-03-local-exec-provisioner/Readme.md)
+35. [remote-exec Provisioner](./09-Terraform-Provisioners/09-02-remote-exec-provisioner/Readme.md)
+36. [Null Resource](./09-Terraform-Provisioners/09-04-Null-Resource/Readme.md)
+37. [Modules from Public Registry](./10-Terraform-Modules/10-01-Terraform-Modules-Basics/Readme.md)
+38. [Build Local Module](./10-Terraform-Modules/10-02-Terraform-Build-a-Module/Readme.md)
+39. [Terraform Cloud - VCS-Driven Worflow](./11-Terraform-Cloud-and-Enterprise-Capabilities/11-01-Terraform-Cloud-Github-Integration/Readme.md)
+40. [Terraform Cloud - CLI-Driven Worflow](./11-Terraform-Cloud-and-Enterprise-Capabilities/11-03-Terraform-Cloud-CLI-Driven-Workflow/Readme.md)
+41. [Terraform Cloud - Share modules in private module registry](./11-Terraform-Cloud-and-Enterprise-Capabilities/11-02-Share-Modules-in-Private-Module-Registry/Readme.md)
+42. [Migrate State to Terraform Cloud](./11-Terraform-Cloud-and-Enterprise-Capabilities/11-04-Migrate-State-to-Terraform-Cloud/Readme.md)
+43. [Basic Sentinel Policies](./12-Terraform-Cloud-and-Sentinel/12-01-Terraform-Cloud-and-Sentinel-Policies/Readme.md)
+44. [Cost Control Sentinel Policies](./12-Terraform-Cloud-and-Sentinel/12-02-Control-Costs-with-Sentinel-Policies/Readme.md)
+45. [CIS Sentinel Policies](./12-Terraform-Cloud-and-Sentinel/12-03-Terraform-Foundational-Policies-using-Sentinel/Readme.md)
+46. [State Import](./13-Terraform-State-Import/Readme.md)
+47. [Graph](./14-Terraform-Graph/Readme.md)
+48. [Functions](./15-Terraform-Expressions/15-01-Terraform-Functions/Readme.md)
+49. [Dynamic Expressions](./15-Terraform-Expressions/15-02-Terraform-Dynamic-Expressions/Readme.md)
+50. [Dynamic Blocks](./15-Terraform-Expressions/15-03-Terraform-Dynamic-Blocks/Readme.md)
 
 
 ## What will students learn in your course?
